@@ -32,14 +32,25 @@ Specially preconfigured for the **Department of Finance, University of Rajshahi*
 - **Dynamic 1-Page Scaling**: All 6 templates dynamically adapt typography, header spacing, and submission grids to fit strictly on 1 page without overflow.
 - **Dynamic 1-Page PDF Export**: Downloads native portrait or landscape A4 PDFs seamlessly.
 
-### 💧 3. Advanced Background Watermark (লোগো ও টেক্সট জলছাপ)
+### 🔄 3. Submission Position / Order Switcher (Submitted To ⇄ Submitted By অদল-বদল)
+- **Flexible Ordering Modes**:
+  - **Standard Academic (Default)**: `Submitted To` (Teacher) on the Left, `Submitted By` (Student) on the Right.
+  - **Swapped / Student First**: `Submitted By` (Student) on the Left, `Submitted To` (Teacher) on the Right.
+- **1-Click Quick Swap Buttons**:
+  - Switch positions instantly from the dedicated control card between the submission forms.
+  - Or click the **Quick Swap** button in the Live Preview toolbar or inside either card header.
+- **Dynamic Visual Feedback**: Form cards display clear position indicators (`📍 Left (বামে)` / `📍 Right (ডানে)`).
+- **Pixel-Perfect PDF Guarantee**: Rearranges physical DOM elements so exported 1-page PDFs accurately render the selected order without layout artifacts.
+- **Persistent Storage**: Saved in `localStorage` and automatically remembered across reloads and student profile switches.
+
+### 💧 4. Advanced Background Watermark (লোগো ও টেক্সট জলছাপ)
 - **Watermark Toggle**: Easily enable or disable the background watermark with one click.
 - **Opacity Slider**: Fine-tune transparency from 2% (ultra-subtle) to 30% (prominent) with 8% print-standard default.
 - **Watermark Tones & Filters**: Grayscale (monochrome), Theme Color Tinted, and Original Full Color modes.
 - **Flexible Sizes**: Small (240px), Medium (340px), Large (440px), and Full Page (540px).
 - **Multiple Sources**: Use the University Logo, upload a custom watermark image, or type custom diagonal text watermark (e.g. *DRAFT, CONFIDENTIAL*).
 
-### 📅 4. Session, Year & Semester Customization (সেশন, বছর ও সেমিস্টার)
+### 📅 5. Session, Year & Semester Customization (সেশন, বছর ও সেমিস্টার)
 - **Session Field**:
   - Clean text input with small quick-select buttons (`2024-2025` to `2019-2020`) below the field (no dropdown popups).
 - **Separate Mode (আলাদা)**:
@@ -50,12 +61,12 @@ Specially preconfigured for the **Department of Finance, University of Rajshahi*
   - Clear visual example box showing combined formats.
   - Live auto-synchronization between separate and combined formats.
 
-### 👤 5. 1-Click Student Profile Manager (প্রোফাইল সেভ ও ১-ক্লিক অটো-ফিল)
+### 👤 6. 1-Click Student Profile Manager (প্রোফাইল সেভ ও ১-ক্লিক অটো-ফিল)
 - **Save Multiple Student Profiles**: Click `💾 Save Profile` to store student details (Name, ID, Session, Year, Semester, Dept, Inst, and Year/Sem format preference).
 - **1-Click Fill Dropdown**: Switch between saved profiles to fill all student fields with a single click.
 - **Delete Profiles**: Delete old profiles easily with one click.
 
-### ⚡ 6. Strict Input Constraints & Clean Academic Inputs
+### ⚡ 7. Strict Input Constraints & Clean Academic Inputs
 - **Strict Validation Rules**:
   - **Student Name**: Letters only (Upper & Lower case, no numbers).
   - **Student ID**: Numbers only (`0-9`).
@@ -64,7 +75,7 @@ Specially preconfigured for the **Department of Finance, University of Rajshahi*
 - **Course & Department Presets**:
   - Smart presets and suggestions for Courses, Faculty, and University headers.
 
-### 📚 7. One-Click Course Auto-Fill
+### 📚 8. One-Click Course Auto-Fill
 - Includes **40 official courses** categorized across:
   - 📘 **1st Year** (FIN-101 to FIN-110)
   - 📗 **2nd Year** (FIN-201 to FIN-210)
@@ -72,36 +83,36 @@ Specially preconfigured for the **Department of Finance, University of Rajshahi*
   - 📕 **4th Year** (FIN-401 to FIN-410)
 - Supports custom course codes and titles.
 
-### 👨‍🏫 7. Dynamic RU Faculty Portal Sync
+### 👨‍🏫 9. Dynamic RU Faculty Portal Sync
 - Automatically syncs faculty members directly from the **RU Profile Portal** (`profile.ru.ac.bd`).
 - Auto-populates teacher names, official designations (Professor, Associate Professor, Lecturer, etc.), department, and institution.
 - Offline cached fallback with manual reload/sync option.
 
-### 🎨 8. Academic Styling & Customization
+### 🎨 10. Academic Styling & Customization
 - **12 Curated Academic Palettes**: Oxford Navy (`#003366`), Crimson Maroon, Royal Emerald Green, Sapphire Blue, Imperial Purple, Warm Bronze / Amber, Forest Pine Green, Slate Charcoal, Burgundy Plum, Deep Teal, Rose Crimson, and Academic Onyx Black.
 - **Custom Color Picker**: Choose any hex color scheme.
 - **8 Academic Border Styles**: Classic Academic, Double Line, Elegant Dashed, Modern Minimal, Ornate Royal Corners, Left Accent Stripe, Top & Bottom Bands, and Borderless.
 - **6 Academic Typography Fonts**: Times New Roman, EB Garamond, Merriweather Serif, Playfair Display, Cinzel (Royal Roman), and Modern Sans-Serif (Inter/Roboto).
 - **Document Type Selector**: Assignment, Lab Report, Term Paper, Project Report, Case Study, Internship Report, Thesis Proposal, or Custom Title.
 
-### 🖼️ 9. Logo Management
+### 🖼️ 11. Logo Management
 - Official University of Rajshahi Logo (embedded base64 HD PNG preset).
 - Vector RU Emblem (SVG format).
 - Custom Logo Upload (supports JPEG, PNG, SVG with instant local preview).
 - Toggle option to show or hide the logo.
 
-### 📱 10. Universal Cross-Platform Support (Android, iOS, PC, Mac, Linux)
+### 📱 12. Universal Cross-Platform Support (Android, iOS, PC, Mac, Linux)
 - **Android Support**: 1-Click PWA Native App install, offline Service Worker, and direct `.apk` packaging compatibility.
 - **iOS / iPadOS (iPhone & iPad)**: Full Apple Touch Icons (76x76 to 180x180), Safari standalone status bar, auto-zoom prevention, and 1-tap `Add to Home Screen`.
 - **Desktop (Windows, macOS, Linux, ChromeOS)**: Desktop PWA install, multi-resolution `favicon.ico` (16/32/48/64px), responsive split-view, and keyboard shortcuts (`Ctrl+P`).
 - **Dedicated Mobile View**: Smart switcher for **Form Editor** ↔ **Live Preview** with auto-fitting zoom.
 
-### 💾 11. Automatic Local Storage Persistence
+### 💾 13. Automatic Local Storage Persistence
 - Automatically saves all form inputs, chosen layout, watermark settings, and selected theme in the browser's `localStorage`.
 - Never lose your entered information upon page reload.
 - Includes a **Sample Data Loader** for quick testing and a **Reset Form** button.
 
-### 🖨️ 12. 1-Page PDF & Print Export
+### 🖨️ 14. 1-Page PDF & Print Export
 - High-resolution client-side PDF generation using `html2pdf.js`.
 - Automatic multi-page prevention guarantee (strict 1-page output).
 - Native browser print fallback (`Ctrl+P` / `Cmd+P` optimized with `@media print` CSS rules).
